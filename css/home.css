@@ -39,7 +39,7 @@ header {
 .menu.sticky {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   padding: 20px 0px 10px;
-  background-color: black;
+  background-color: rgb(78, 57, 99);
   background-image: none;
 }
 
@@ -114,8 +114,8 @@ a {
 }
 
 .profile {
-  border-radius: 50%;
-  border: 7px solid white;
+  border-radius: 70%;
+  border: 7px solid rgb(78, 57, 99);
   margin: 10px;
   max-width: 250px;
 }
@@ -165,7 +165,8 @@ section {
 
 .title-home {
   text-align: left;
-  font-size: 40px;
+  font-size: 25px;
+  font-weight: 600;
   padding-bottom: 10px;
   padding-top: 120px;
 }
@@ -192,13 +193,13 @@ section {
   padding: 10px;
   width: 246px;
   margin: auto;
-  border: 1px solid black;
+ 
   color: black;
 }
 
 footer {
   text-align: center;
-  background-color: black;
+  background-color: #4e3963;
   color: white;
   height: 51px;
 }
@@ -210,9 +211,8 @@ footer {
 }
 
 button {
-  padding: 10px 20px 10px 20px;
+  /* padding: 10px 20px 10px 20px; */
   font-size: 15px;
-  margin-top: 20px;
 }
 
 @media only screen and (max-width: 720px) {
@@ -252,7 +252,7 @@ button {
   }
 
   li {
-    color: black !important;
+    color: rgb(78, 57, 99) !important;
   }
 
   nav ul a li:hover {
@@ -346,7 +346,6 @@ button {
 
   .button {
     margin: 0;
-    color: black;
     margin-left: 10%;
     padding-left: 0px;
   }
@@ -360,5 +359,14 @@ button {
     width: 80%;
     font-size: 12px;
     padding-left: 10%;
+  }
+
+  #myInfos{
+    margin-top: 50px  !important;
+  }
+
+  #cat{
+    margin-top: 60px;
+    width: 500px;
   }
 }

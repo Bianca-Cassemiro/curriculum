@@ -140,7 +140,7 @@ section {
   border-radius: 20px;
   padding: 10px;
   box-shadow: 0px 5px 9px black;
-  width: 300px;
+  width: 700px;
   display: flex;
   flex-direction: column;
 }
@@ -154,7 +154,7 @@ section {
 .imgContainer img{
   border-radius: 20px 20px 0px 0px;
   margin: 0px;
-  width: 100%
+  width: 70%
 
 }
 
